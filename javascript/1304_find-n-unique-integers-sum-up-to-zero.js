@@ -6,7 +6,7 @@ var sumZero = function(n) {
     const result = [];
     const halfLength = n / 2;
 
-    if (n.length === 1) {
+    if (n === 1) {
         return [0];
     }
 
