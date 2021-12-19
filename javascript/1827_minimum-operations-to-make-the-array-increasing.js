@@ -9,7 +9,6 @@
 
 var minOperations = function (nums) {
     let result = 0;
-    if (nums.length === 0) return 0;
 
     let i = 1;
     while (i < nums.length) {
