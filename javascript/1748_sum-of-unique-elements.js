@@ -3,6 +3,6 @@
     Return the sum of all the unique elements of nums.
 */
 
-var sumOfUnique = function(nums) {
-    return nums.filter((item, index, arr) => arr.lastIndexOf(item) === arr.indexOf(item)).reduce((sum, current) => sum += current, 0)
+var sumOfUnique = function (nums) {
+    return nums.filter((item, index, arr) => arr.lastIndexOf(item) === arr.indexOf(item)).reduce((sum, current) => (sum += current), 0);
 };

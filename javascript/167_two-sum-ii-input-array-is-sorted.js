@@ -7,9 +7,9 @@
     The tests are generated such that there is exactly one solution. You may not use the same element twice.
 */
 
-var twoSum = function(numbers, target) {
+var twoSum = function (numbers, target) {
     let item1 = 0;
-    let item2 = numbers.length -1;
+    let item2 = numbers.length - 1;
     while (numbers[item1] + numbers[item2] !== target) {
         if (numbers[item1] + numbers[item2] < target) {
             item1++;

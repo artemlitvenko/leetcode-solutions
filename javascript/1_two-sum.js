@@ -4,16 +4,15 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 */
 
-var twoSum = function(nums, target) {
+var twoSum = function (nums, target) {
     for (let i = 0; i < nums.length; i++) {
-
         let num = nums[i];
         let numIndex = nums.indexOf(num);
 
         let res = target - num;
         let resIndex = nums.lastIndexOf(res);
 
-        if ((nums.includes(res)) && (numIndex != resIndex)) {
+        if (nums.includes(res) && numIndex !== resIndex) {
             return [numIndex, resIndex];
         }
     }

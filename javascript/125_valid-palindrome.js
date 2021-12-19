@@ -4,7 +4,7 @@
     Given a string s, return true if it is a palindrome, or false otherwise.
 */
 
-var isPalindrome = function(s) {
+var isPalindrome = function (s) {
     let clearString = s.replace(/[^0-9a-zA-Z]/gi, '').toLowerCase();
     return clearString === clearString.split('').reverse().join('');
 };

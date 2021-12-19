@@ -4,7 +4,7 @@
     Return the merged string.
 */
 
-var mergeAlternately = function(word1, word2) {
+var mergeAlternately = function (word1, word2) {
     let word1Arr = word1.split('');
     let word2Arr = word2.split('');
     let biggestWord = word1.length > word2.length ? word1 : word2;
@@ -14,5 +14,6 @@ var mergeAlternately = function(word1, word2) {
         if (word1Arr[i]) result.push(word1Arr[i]);
         if (word2Arr[i]) result.push(word2Arr[i]);
     }
+
     return result.join('');
 };

@@ -8,25 +8,26 @@
     Given an array of strings operations containing a list of operations, return the final value of X after performing all the operations.
 */
 
-var finalValueAfterOperations = function(operations) {
+var finalValueAfterOperations = function (operations) {
     let number = 0;
     for (let i = 0; i < operations.length; i++) {
         switch (operations[i]) {
-            case "X++":
+            case 'X++':
                 number++;
                 break;
-            case "X--":
+            case 'X--':
                 number--;
                 break;
-            case "++X":
+            case '++X':
                 ++number;
                 break;
-            case "--X":
+            case '--X':
                 --number;
                 break;
             default:
                 number;
         }
     }
+
     return number;
 };

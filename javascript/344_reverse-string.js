@@ -3,7 +3,7 @@
     You must do this by modifying the input array in-place with O(1) extra memory.
 */
 
-var reverseString = function(s) {
+var reverseString = function (s) {
     let startArr = 0;
     let endArr = s.length - 1;
 

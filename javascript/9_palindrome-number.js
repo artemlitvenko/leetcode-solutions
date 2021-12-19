@@ -3,6 +3,6 @@
     An integer is a palindrome when it reads the same backward as forward. For example, 121 is palindrome while 123 is not.
 */
 
-var isPalindrome = function(x) {
+var isPalindrome = function (x) {
     return String(x) === String(x).split('').reverse().join('') ? true : false;
 };

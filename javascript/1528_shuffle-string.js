@@ -4,10 +4,12 @@
     Return the shuffled string.
 */
 
-var restoreString = function(s, indices) {
-    return s.split('').reduce((acc, item, index ) => {
-        acc[indices[index]] = item
-        return acc
-    }, []).join('')
-
+var restoreString = function (s, indices) {
+    return s
+        .split('')
+        .reduce((acc, item, index) => {
+            acc[indices[index]] = item;
+            return acc;
+        }, [])
+        .join('');
 };

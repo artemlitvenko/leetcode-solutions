@@ -5,10 +5,10 @@
     Letters are case sensitive, so "a" is considered a different type of stone from "A".
 */
 
-var numJewelsInStones = function(jewels, stones) {
+var numJewelsInStones = function (jewels, stones) {
     let result = 0;
-    for (let i = 0; i < jewels.length; i++ ) {
-        for (let ii = 0; ii < stones.length; ii++ ) {
+    for (let i = 0; i < jewels.length; i++) {
+        for (let ii = 0; ii < stones.length; ii++) {
             if (jewels[i] === stones[ii]) {
                 result += 1;
             }

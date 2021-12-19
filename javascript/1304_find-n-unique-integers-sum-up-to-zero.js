@@ -2,7 +2,7 @@
     Given an integer n, return any array containing n unique integers such that they add up to 0.
 */
 
-var sumZero = function(n) {
+var sumZero = function (n) {
     const result = [];
     const halfLength = n / 2;
 

@@ -4,7 +4,7 @@
     Given a string s, return the power of s.
 */
 
-var maxPower = function(s) {
+var maxPower = function (s) {
     let maxStr = 1;
     let accum = 0;
     for (let i = 0; i < s.length; i++) {

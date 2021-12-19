@@ -8,9 +8,9 @@
     It is guaranteed that the insertion operations will be valid.
 */
 
-var createTargetArray = function(nums, index) {
+var createTargetArray = function (nums, index) {
     return nums.reduce((accum, current, i) => {
-        accum.splice(index[i], 0, current)
-        return accum
-    }, [])
+        accum.splice(index[i], 0, current);
+        return accum;
+    }, []);
 };

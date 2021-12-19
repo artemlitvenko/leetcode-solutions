@@ -5,18 +5,18 @@
 
     Return the maximum amount of split balanced strings.
 */
-var balancedStringSplit = function(s) {
+var balancedStringSplit = function (s) {
     let result = 0;
     let counter = 0;
     for (let i = 0; i < s.length; i++) {
         if (s[i] === 'R') {
-            counter++
+            counter++;
         } else {
-            counter--
+            counter--;
         }
 
         if (counter === 0) {
-            result++
+            result++;
         }
     }
 

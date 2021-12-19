@@ -4,6 +4,6 @@ Specifically, ans is the concatenation of two nums arrays.
 Return the array ans.
 */
 
-var getConcatenation = function(nums) {
-    return [...nums, ...nums]
+var getConcatenation = function (nums) {
+    return [...nums, ...nums];
 };

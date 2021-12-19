@@ -7,7 +7,7 @@
     Return the resulting string.
 */
 
-var reversePrefix = function(word, ch) {
+var reversePrefix = function (word, ch) {
     const indexWord = word.indexOf(ch);
     if (indexWord === -1) return word;
     const reverse = [...word.slice(0, indexWord + 1)].reverse().join('');

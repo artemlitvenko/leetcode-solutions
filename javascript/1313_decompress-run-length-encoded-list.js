@@ -6,7 +6,7 @@
     Return the decompressed list.
 */
 
-var decompressRLElist = function(nums) {
+var decompressRLElist = function (nums) {
     const result = [];
     for (let i = 0; i < nums.length; i += 2) {
         let count = nums[i];

@@ -3,7 +3,7 @@
     If there is no common prefix, return an empty string "".
 */
 
-var longestCommonPrefix = function(strs) {
+var longestCommonPrefix = function (strs) {
     if (strs.length === 0) {
         return '';
     }
@@ -21,4 +21,4 @@ var longestCommonPrefix = function(strs) {
     return result;
 };
 
-console.log(longestCommonPrefix(["ab", "a"]))
+console.log(longestCommonPrefix(['ab', 'a']));

@@ -4,7 +4,7 @@
     Return the sum of all odd-length subarrays of arr.
 */
 
-var sumOddLengthSubarrays = function(arr) {
+var sumOddLengthSubarrays = function (arr) {
     const oddArr = [];
     let count = 0;
     for (let i = 0; i < arr.length; i++) {
@@ -18,5 +18,6 @@ var sumOddLengthSubarrays = function(arr) {
         }
         oddArr.length = 0;
     }
+
     return count;
 };

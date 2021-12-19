@@ -3,6 +3,6 @@
     A string is represented by an array if the array elements concatenated in order forms the string.
 */
 
-var arrayStringsAreEqual = function(word1, word2) {
+var arrayStringsAreEqual = function (word1, word2) {
     return word1.join('') === word2.join('');
 };

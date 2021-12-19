@@ -6,10 +6,10 @@
 */
 
 function largestOddNumber(num) {
-    let numArr = num.split('')
-    while(numArr[numArr.length - 1] % 2 === 0) {
-        numArr.pop()
+    let numArr = num.split('');
+    while (numArr[numArr.length - 1] % 2 === 0) {
+        numArr.pop();
     }
 
-    return numArr.join('')
+    return numArr.join('');
 }

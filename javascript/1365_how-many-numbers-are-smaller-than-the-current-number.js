@@ -4,7 +4,7 @@
     Return the answer in an array.
 */
 
-var smallerNumbersThanCurrent = function(nums) {
+var smallerNumbersThanCurrent = function (nums) {
     let result = 0;
     let accum = [];
     for (let i = 0; i < nums.length; i++) {
@@ -13,7 +13,7 @@ var smallerNumbersThanCurrent = function(nums) {
                 result += 1;
             }
         }
-        accum.push(result)
+        accum.push(result);
         result = 0;
     }
     return accum;

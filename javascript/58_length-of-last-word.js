@@ -3,6 +3,6 @@
     A word is a maximal substring consisting of non-space characters only.
 */
 
-var lengthOfLastWord = function(s) {
+var lengthOfLastWord = function (s) {
     return s.replace(/\s+/g, ' ').trim().split(' ').pop().length;
 };

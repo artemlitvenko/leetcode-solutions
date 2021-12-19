@@ -6,7 +6,8 @@
     Note that multiple kids can have the greatest number of candies.
 */
 
-var kidsWithCandies = function(candies, extraCandies) {
-    const max = Math.max(...candies)
-    return candies.map(value => value + extraCandies >= max)
+var kidsWithCandies = function (candies, extraCandies) {
+    const max = Math.max(...candies);
+
+    return candies.map((value) => value + extraCandies >= max);
 };
